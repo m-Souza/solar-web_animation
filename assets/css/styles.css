@@ -370,6 +370,27 @@ body{
     color: #4703a5c0;
 }
 
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-box{
+    margin: 5px 0 3px 0;
+    color: #558C03;
+    width: 75vw;
+}
+
+.contact-button{
+    padding: 5px;
+    margin: 5px;
+    background-color: #6805F2;
+    color: #93F205;
+}
+
+
 @media screen and (min-width: 576px){
     body{
         grid-template-areas: 
@@ -406,6 +427,14 @@ body{
 
     menu a{
         display:block;
+    }
+
+    .contact-form{
+        flex-direction: row;
+    }
+    
+    .contact-box{
+        width: 80%;
     }
 
     :root{
